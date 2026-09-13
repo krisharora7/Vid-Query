@@ -17,7 +17,7 @@ from rag_project import (
 )
 
 st.set_page_config(page_title="Vid-Query", page_icon="🎬")
-st.title("🎬 YouTube Video Chatbot")
+st.title("🎬 Vid-Query")
 st.caption("Ask questions about any YouTube video using its transcript (RAG + LangChain + Groq)")
 
 if "retriever" not in st.session_state:
