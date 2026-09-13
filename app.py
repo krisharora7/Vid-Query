@@ -16,7 +16,7 @@ from rag_project import (
     get_answer,
 )
 
-st.set_page_config(page_title="YouTube Video Chatbot", page_icon="🎬")
+st.set_page_config(page_title="Vid-Query", page_icon="🎬")
 st.title("🎬 YouTube Video Chatbot")
 st.caption("Ask questions about any YouTube video using its transcript (RAG + LangChain + Groq)")
 
